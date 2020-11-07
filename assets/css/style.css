@@ -1,12 +1,13 @@
-.wrapper {
-  margin: 0 auto;
-  max-width: 128rem;
-  padding: 0 1rem;
-}
 body {
    background: #f2e8d0;
  }
+ img {
+   border-radius: 300px;
+   width: 180px;
+   height: 180px;
+ }
 h1 {
+font-size: 20px;
 color: #1668a3;
 font-family: 'Montserrat' , 'sans-serif';
 }
@@ -14,17 +15,24 @@ p {
   color: #1668a3;
   font-family: 'Montserrat' , 'sans-serif';
   }
+  .p-rectangle {
+    text-align: center;
+    color: #1668a3;
+    font-family: 'Montserrat' , 'sans-serif';
+    }
 .rectangle {
-  height: 64px;
+  border-radius: 32px;
+  height: 54px;
   width: 443px;
-  background-color: blue;
+  background-color:#bcd691;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 .rectangle2 {
-  height: 64px;
+  border-radius: 32px;
+  height: 54px;
   width: 210px;
-  background-color: blue;
+  background-color:#bcd691;
   margin-top: 10px;
   margin-bottom: 10px;
 }
