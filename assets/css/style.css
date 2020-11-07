@@ -1,0 +1,40 @@
+.wrapper {
+  margin: 0 auto;
+  max-width: 128rem;
+  padding: 0 1rem;
+}
+body {
+   background: #f2e8d0;
+ }
+h1 {
+color: #1668a3;
+font-family: 'Montserrat' , 'sans-serif';
+}
+p {
+  color: #1668a3;
+  font-family: 'Montserrat' , 'sans-serif';
+  }
+.rectangle {
+  height: 64px;
+  width: 443px;
+  background-color: blue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.rectangle2 {
+  height: 64px;
+  width: 210px;
+  background-color: blue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.parent {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: space-between;
+}
+.child {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
