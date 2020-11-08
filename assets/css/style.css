@@ -1,20 +1,30 @@
+  /* ----------------------- Global ------------------ */
 body {
    background: #f2e8d0;
  }
- img {
-   border-radius: 300px;
-   width: 180px;
-   height: 180px;
- }
-h1 {
-font-size: 20px;
-color: #1668a3;
-font-family: 'Montserrat' , 'sans-serif';
-}
-p {
-  color: #1668a3;
-  font-family: 'Montserrat' , 'sans-serif';
-  }
+    /* ----------------------- Header ------------------ */
+.round-img {
+      border-radius: 300px;
+      width: 180px;
+      height: 180px;
+    }
+.svg {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 600px;
+      height: 200px;
+    }
+   h1 {
+   font-size: 20px;
+   color: #1668a3;
+   font-family: 'Montserrat' , 'sans-serif';
+   }
+   p {
+     color: #1668a3;
+     font-family: 'Montserrat' , 'sans-serif';
+     }
+  /* ----------------------- Rectangles ------------------ */
   .p-rectangle {
     text-align: center;
     color: #1668a3;
@@ -37,7 +47,7 @@ p {
   margin-bottom: 10px;
 }
 .parent {
-  display: flex;
+  display: inline-flex;
   flex-flow: column wrap;
   align-content: space-between;
 }
@@ -46,3 +56,4 @@ p {
   flex-direction: row;
   justify-content: space-between;
 }
+  
