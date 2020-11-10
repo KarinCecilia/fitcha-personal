@@ -46,7 +46,7 @@ h2 {
       color: #f2e8d0;
       font-family: 'Montserrat' , 'sans-serif';
     }
-    h3 {
+h3 {
       color: #1668a3;
       font-family: 'Montserrat' , 'sans-serif';
       font-weight: bold;
@@ -91,4 +91,4 @@ h2 {
 }
 
   /* ----------------------- Issues: When changing font-size in .p-rectangle the text is not aligned. / 
-  Vector image can only be placed in left corner if fixed, not responsive to scroll.  ------------------ */
+  Vector image can only be placed in left corner if fixed, not responsive to scroll. / Vector misshapen when uploaded as SVG, uploaded it as PNG ------------------ */
