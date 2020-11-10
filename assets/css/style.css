@@ -1,25 +1,28 @@
   /* ----------------------- Global ------------------ */
+html {
+  font-size: 62.5%; 
+}
 body {
    background: #f2e8d0;
-   padding: 20px;
-   margin: 20px;
+   padding: 2rem;
+   margin: 2rem;
  }
      /* ----------------------- Header ------------------ */
 .round-img {
-      border-radius: 300px;
-      width: 280px;
-      height: 280px;
+      border-radius: 30rem;
+      width: 28rem;
+      height: 28rem;
     }
 h1 {
-      font-size: 34px;
+      font-size: 3.4rem;
       color: #1668a3;
       font-family: 'Montserrat' , 'sans-serif';
       }
 h2 {
-        font-size: 24px;
+        font-size: 2.4rem;
         color: #1668a3;
         font-family: 'Montserrat' , 'sans-serif';
-        line-height: 40px;
+        line-height: 4rem;
         }
         /* ----------------------- Vector image with quote ------------------ */
 .container {
@@ -30,15 +33,15 @@ h2 {
       position: fixed;
       top: 0;
       right: 0;
-      width: 850px;
-      height: 280px;
+      width: 85rem;
+      height: 28rem;
     }
     .quote {
       position: absolute; 
-      top:-280px;
-      right: 100px;
-      font-size: 20px;
-      line-height: 30px;
+      top:-28rem;
+      right: 10rem;
+      font-size: 2rem;
+      line-height: 3rem;
       font-style: italic;
       color: #f2e8d0;
       font-family: 'Montserrat' , 'sans-serif';
@@ -47,7 +50,7 @@ h2 {
       color: #1668a3;
       font-family: 'Montserrat' , 'sans-serif';
       font-weight: bold;
-      font-size: 24px;
+      font-size: 2.4rem;
       }
   /* ----------------------- Rectangles ------------------ */
 .flex-parent {
@@ -56,8 +59,8 @@ h2 {
     align-content: space-between;
     float: right;
     position: relative;
-    top: -300px;
-    right: 200px;
+    top: -30rem;
+    right: 20rem;
   }
 .flex-child {
     display: flex;
@@ -66,25 +69,25 @@ h2 {
   }
   .p-rectangle {
     text-align: center;
-    font-size: 16px;
+    font-size: 1.6rem;
     color: #737F59;
     font-family: 'Montserrat' , 'sans-serif';
     }
 .rectangle {
-  border-radius: 32px;
-  height: 50px;
-  width: 403px;
+  border-radius: 3.2rem;
+  height: 5rem;
+  width: 40rem;
   background-color:#bcd691;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .rectangle2 {
-  border-radius: 32px;
-  height: 50px;
-  width: 170px;
+  border-radius: 3.2rem;
+  height: 5rem;
+  width: 17rem;
   background-color:#bcd691;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
   /* ----------------------- Issues: When changing font-size in .p-rectangle the text is not aligned. / 
